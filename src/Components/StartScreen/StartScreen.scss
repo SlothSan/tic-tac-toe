@@ -21,8 +21,10 @@
     background-color: $dark-blue;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: $dark-blue-shadow 0px 10px;
 
     .selection-text {
       font-size: 1rem;
@@ -30,6 +32,12 @@
       letter-spacing: 1px;
       font-weight: bold;
       color: $darker-gray;
+    }
+
+    .selection-text-reminder {
+      font-size: 0.875rem;
+      color: $darker-gray;
+      letter-spacing: 0.88px;
     }
   }
 

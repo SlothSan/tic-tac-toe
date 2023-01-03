@@ -8,6 +8,10 @@ const StartScreen = (): JSX.Element => {
             <Logo className={"logo"} src={'../../../public/logo.svg'}/>
             <Container className={"start-game-selection-container"}>
                 <p className={"selection-text"}>PICK PLAYER 1'S MARK</p>
+                <Container className={"selection-container"}>
+                    
+                </Container>
+                <p className={"selection-text-reminder"}>REMEMBER : X GOES FIRST</p>
             </Container>
         </Container>
     )
