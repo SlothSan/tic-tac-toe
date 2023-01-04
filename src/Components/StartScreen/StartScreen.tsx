@@ -9,7 +9,12 @@ const StartScreen = (): JSX.Element => {
             <Container className={"start-game-selection-container"}>
                 <p className={"selection-text"}>PICK PLAYER 1'S MARK</p>
                 <Container className={"selection-container"}>
-                    
+                    <Container className={}>
+                        
+                    </Container>
+                    <Container className={}>
+
+                    </Container>
                 </Container>
                 <p className={"selection-text-reminder"}>REMEMBER : X GOES FIRST</p>
             </Container>
